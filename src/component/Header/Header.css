@@ -1,0 +1,41 @@
+.h-wrapper  {
+    background-color: var(--black);
+    color: white;
+
+}
+.h-container {
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary)
+
+} 
+
+.h-menu {
+    gap: 2rem
+
+}
+.h-menu>*:hover {
+    cursor: pointer;
+
+}
+
+.button {
+
+}
+.stats {
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.stat>:nth-child(1) {
+    font-size: 2rem;
+
+}
+.stat>:nth-child(1)>:last-child {
+    color: orange;
+
+}
+
